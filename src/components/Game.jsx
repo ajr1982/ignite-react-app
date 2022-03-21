@@ -24,6 +24,7 @@ const Game = ({ name, released, image, id }) => {
 			variants={pop}
 			initial="hidden"
 			animate="show"
+			exit="exit"
 		>
 			<Link to={`/game/${id}`}>
 				<h3>{name}</h3>

@@ -31,7 +31,7 @@ const Home = () => {
 
 	return (
 		<GameList variants={fadeIn} initial="hidden" animate="show">
-			<AnimateSharedLayout type="crossfade">
+			<AnimateSharedLayout>
 				<AnimatePresence>
 					{pathId && <GameDetail pathId={pathId} />}
 				</AnimatePresence>
